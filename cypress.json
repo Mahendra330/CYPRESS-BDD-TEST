@@ -1,0 +1,15 @@
+{
+  "video": true,
+  "ignoreTestFiles": [
+    "*.js",
+    "*.md"
+  ],
+  "waitForAnimations": true,
+  "animationDistanceTreshold": 20,
+  "defaultCommandTimeout": 5000,
+  "execTimeout": 60000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 15000,
+  "responseTimeout": 15000,
+  "projectId": "rv5hnv"
+}

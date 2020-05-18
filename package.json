@@ -1,0 +1,26 @@
+{
+  "name": "cypress-bdd-test",
+  "version": "1.0.0",
+  "description": "Cypress with Cucumber Example",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:dashboard-run":"cypress run --record --key 0966de9c-ba40-4f22-9974-3428746ed7fe"
+  },
+  "keywords": [
+    "Cypress",
+    "BDD",
+    "Cucumber"
+  ],
+  "author": "Mahendra Kumar Barik",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^4.5.0",
+    "cypress-cucumber-preprocessor": "^2.3.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions":true
+  }
+
+}
